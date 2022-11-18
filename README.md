@@ -1,2 +1,2 @@
-# runsmart
-## rusnsmart - best wathc for fitness 
+# runsmart.com
+## rusnsmart - best watch for fitness 
