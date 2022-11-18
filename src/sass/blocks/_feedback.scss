@@ -1,0 +1,39 @@
+.feedback {
+    padding-bottom: 80px;
+    .container {
+        max-width: 944px;
+    }
+     img {
+        display: inline-block;
+        height: 169px;
+        max-width: 100%;
+        margin-right: 61px;
+    }
+     h2 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+    &__card {
+        display: flex;
+        margin-top: 60px;
+    }
+    &__card__title {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__card__subtitle {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__card_descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 16px;
+        color: pink;
+        
+    }
+}

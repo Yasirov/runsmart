@@ -1,0 +1,22 @@
+@import 'base/variables';
+@import 'base/animation';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+@import 'blocks/general.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/consultation';
+@import 'blocks/media.scss';
+@import 'blocks/forms.scss';
+@import 'blocks/carousel.scss';
+@import 'blocks/media.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/feedback.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/pageup';
