@@ -1,3 +1,30 @@
+@media (max-width: 680px) {
+    .container {
+            max-width: 350px;
+
+        }
+    .promo {
+
+        padding: 0;
+        button {
+            display: none;
+        }
+        &__header {
+            font-size: 20px;
+        }
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        &__official {
+            margin-top: 40px;
+        }
+        &__phone {
+                display: none;
+            }
+    }
+}
+
 @media (max-width: 767px){
 
     .container {
@@ -5,6 +32,9 @@
         }
     .promo {
         min-width: 767px;
+        &__header {
+            font-size: 30px;
+        }
     }
 
     .header {
@@ -76,6 +106,9 @@
 
     .promo {
         min-width: 768px;
+        &__header {
+                font-size: 34px;
+            }
     }
 
     .header {
